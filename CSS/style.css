@@ -9,15 +9,14 @@
     
 }
 .footer{
-    background-color:#bebeb9;
+    background-color:whitesmoke;
     margin: 0px auto;
     padding: 20px 0px 20px 0px;
 }
 .jumbotron {
     padding: 70px 30px 70px 30px;
     margin: 0px auto;
-    background: #9575CD;
-    color: floralwhite;
+    color: rgb(41, 31, 7);
 }
 
 .address {
@@ -32,7 +31,7 @@ body {
 }
 
 .navbar-dark {
-    background-color: #512DA8;
+    background-color:#edd379;
 }
 .tab-content {
     border-left: 1px solid #ddd;
@@ -49,5 +48,9 @@ body {
 
 .form {
     padding:10px;
+}
+
+.nav-link {
+    color: rgb(128, 125, 125) !important;
 }
 

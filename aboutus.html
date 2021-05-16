@@ -27,111 +27,150 @@
                         <li class="nav-item"><a class="nav-link" href="./index.html"><span class="fa fa-home fa-lg"></span> Home</a></li>
                         <li class="nav-item active"><a class="nav-link" href="./aboutus.html"><span class="fa fa-info fa-lg"></span> About</a></li>
                         <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span> Menu</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./contactus.html"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <div class="row row-content">
-        <div class="col-12">
-            <h2>Corporate Leadership</h2>  
-            <nav class="nav">
-                <a class="nav-link active" data-toggle="tab" href="#peter">Peter Pan</a>
-                <a class="nav-link" data-toggle="tab" href="#danny">Danny Withership</a>
-                <a class="nav-link" data-toggle="tab" href="#agumbe">Agumbe Tang</a>
-                <a class="nav-link disabled" data-toggle="tab" href="#">Disabled</a>
-            </nav>     
-            <div class="tab-content" >
-                <div role="tabpanel" class="tab-pane fade show active" id="peter">
-                    <h3> Peter Pan <small>CEO</small></h3>
-                    <p class="d-none d-sm-block">For students completely new to AWS, you'll want to begin with the AWS Concepts course. </p>                    
-                </div>
-                <div role="tabpanel" class="tab-pane fade" id="danny">
-                    <h3> Danny Withership <small>CFO</small></h3>
-                    <p class="d-none d-sm-block">For students completely new to AWS, you'll want to begin with the AWS Concepts course. </p>                    
-                </div>
-                <div role="tabpanel" class="tab-pane fade" id="agumbe">
-                    <h3> Agumbe Tang <small>CTO</small></h3>
-                    <p class="d-none d-sm-block">For students completely new to AWS, you'll want to begin with the AWS Concepts course. </p>                    
-                </div>
-            </div>
+    <div class="container">
+        <div class="row">
+            <ol class="col-12 breadcrumb">
+                <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+                <li class="breadcrumb-item active">About Us</li>
+            </ol>
         </div>
-    </div>
-    <div class="row row-content">
-        <div class="col-12 col-sm-9">
-            <h2>Facts &amp;Figures</h2>
-        </div>
-        <div class="col-12 col-sm-3">
-        </div>
-    
-        <div class="table-responsive">
-            <table class="table table-striped">
-                <thead class="thead-light">
-                    <tr>
-                        <th>&nbsp;</th>
-                        <th>2013</th>
-                        <th>2014</th>
-                        <th>2015</th>
-                    </tr>
+        <div class="row mt-2">
+           
+            <div row class="col-12">
+                <h4>Corporate Leadership</h4>     
+                <div id="accordion">
+                    <div class="card">
+                        <div class="card-head" role="tab" id="peterhead">
+                            <h4 class="mb-0">
+                                <a data-toggle="collapse" data-target="#peter">
+                                    Peter Pan <small>Chief Executive Officer</small>
+                                </a>
+                            </h4>
+                        </div>
+                        <div class="collapse ~show" id="peter" data-parent="#accodion">
+                            <div class="card-body">
+                                <p class="d-none d-sm-block">chief executive officer CEO Responsible for the overall vision and direction of an organization, 
+                                    making the final decisions over all of the corporation's operations. The highest-ranking management officer
+                                </p>
+                            </div>
+                        </div>
 
-                </thead>
-                <tbody>
-                    <tr>
-                        <th>Employees</th>
-                        <td>15</td>
-                        <td>30</td>
-                        <td>40</td>
-                    </tr>
-                    <tr>
-                        <th>Guests Served</th>
-                        <td>15000</td>
-                        <td>45000</td>
-                        <td>100,000</td>
-                    </tr>
-                    <tr>
-                        <th>Special Events</th>
-                        <td>3</td>
-                        <td>20</td>
-                        <td>45</td>
-                    </tr>
-                    <tr>
-                        <th>Annual Turnover</th>
-                        <td>$321,8</td>
-                        <td>$107,4</td>
-                        <td>$533,1</td>
-                    </tr>
-                </tbody>
-            </table>
-    </div>
-    <div class="col-12 col-sm-6">
-        <div class="card">
-            <h3 class="card-header badge-secondary text-white">Facts At A Glance</h3>
-            <div class="card-body">
-                <dl class="row">
-                    <dt class="col-6">Started</dt>
-                    <dd class="col-6">3 Feb.2013</dd>
-                    <dt class="col-6">Major stake Holder</dt>
-                    <dd class="col-6">HK Fine Foods Inc.</dd>
-                    <dt class="col-6">Last Year's Turnover</dt>
-                    <dd class="col-6">$1235,97</dd>
-                    <dt class="col-6">Employees</dt>
-                    <dd class="col-6">40</dd>
-                </dl>
+                        <div class="card-head" role="tab" id="dannyhead">
+                            <h4 class="mb-0">
+                                <a data-toggle="collapse" data-target="#danny">
+                                    Danny Withership <small>CFO</small>
+                                </a>
+                            </h4>
+                        </div>
+                        <div class="collapse show" id="danny" data-parent="#accodion">
+                            <div class="card-body">
+                                <p class="d-none d-sm-block">The chief financial officer (CFO) is the officer of a company that has primary responsibility for 
+                                    managing the company's finances, including financial planning, management of financial risks, record-keeping, and financial 
+                                    reporting. In some sectors, the CFO is also responsible for analysis of data.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="card-head" role="tab" id="dagumbehead">
+                            <h4 class="mb-0">
+                                <a data-toggle="collapse" data-target="#agumbe">
+                                    Agumbe Tang <small>CTO</small>
+                                </a>
+                            </h4>
+                        </div>
+                        <div class="collapse show" id="agumbe" data-parent="#accodion">
+                            <div class="card-body">
+                                <p class="d-none d-sm-block">A chief technical officer (CTO), sometimes known as a chief technology officer or chief technologist, 
+                                    is an executive-level position in a company or other entity whose occupation is focused on the scientific and technological 
+                                    issues within an organization.
+                                </p>
+                            </div>
+                        </div>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="col-12 mt-3 mb-3">
-        <div class="card card-body bg-light">
-            <blockquote class="blockquote">
-                <p class=mb-0>You better cut the pizza in four pieces because
-                    I'm not hungry enough to eat six.</p>
-                <footer class="blockquote-footer">Yogi Berra,
-                    <cite title="Cource Title">The Wit and Wisdom of Yogi Berra,
-                        P. Pepe, Diversion Books, 2014 </cite>
-                </footer>
-            </blockquote>
+        <div class="row mt-4">
+            <div class="col-12 col-sm-9">
+                <h3>Facts &amp;Figures</h3>
+            </div>
+            <div class="col-12 col-sm-3">
+            </div>
+        
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead class="thead-light">
+                        <tr>
+                            <th>&nbsp;</th>
+                            <th>2013</th>
+                            <th>2014</th>
+                            <th>2015</th>
+                        </tr>
+
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>Employees</th>
+                            <td>15</td>
+                            <td>30</td>
+                            <td>40</td>
+                        </tr>
+                        <tr>
+                            <th>Guests Served</th>
+                            <td>15000</td>
+                            <td>45000</td>
+                            <td>100,000</td>
+                        </tr>
+                        <tr>
+                            <th>Special Events</th>
+                            <td>3</td>
+                            <td>20</td>
+                            <td>45</td>
+                        </tr>
+                        <tr>
+                            <th>Annual Turnover</th>
+                            <td>$321,8</td>
+                            <td>$107,4</td>
+                            <td>$533,1</td>
+                        </tr>
+                    </tbody>
+                </table>
         </div>
-    </div>
+        <div class="col-12 col-sm-6">
+            <div class="card">
+                <h3 class="card-header badge-secondary text-white">Facts At A Glance</h3>
+                <div class="card-body">
+                    <dl class="row">
+                        <dt class="col-6">Started</dt>
+                        <dd class="col-6">3 Feb.2013</dd>
+                        <dt class="col-6">Major stake Holder</dt>
+                        <dd class="col-6">HK Fine Foods Inc.</dd>
+                        <dt class="col-6">Last Year's Turnover</dt>
+                        <dd class="col-6">$1235,97</dd>
+                        <dt class="col-6">Employees</dt>
+                        <dd class="col-6">40</dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 mt-3 mb-3">
+            <div class="card card-body bg-light">
+                <blockquote class="blockquote">
+                    <p class=mb-0>You better cut the pizza in four pieces because
+                        I'm not hungry enough to eat six.</p>
+                    <footer class="blockquote-footer">Yogi Berra,
+                        <cite title="Cource Title">The Wit and Wisdom of Yogi Berra,
+                            P. Pepe, Diversion Books, 2014 </cite>
+                    </footer>
+                </blockquote>
+            </div>
+        </div>
+</div>
+
       <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
       <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
       <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
